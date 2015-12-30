@@ -1,0 +1,6 @@
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\bin\Debug\VowelFinder.exe.config
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\bin\Debug\VowelFinder.exe
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\bin\Debug\VowelFinder.pdb
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\obj\Debug\VowelFinder.csprojResolveAssemblyReference.cache
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\obj\Debug\VowelFinder.exe
+z:\users\loken\documents\visual studio 2015\Projects\VowelFinder\VowelFinder\obj\Debug\VowelFinder.pdb

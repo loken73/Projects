@@ -1,0 +1,5 @@
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Model\bin\Debug\InTheFridge.Model.dll
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Model\bin\Debug\InTheFridge.Model.pdb
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Model\obj\Debug\InTheFridge.Model.csprojResolveAssemblyReference.cache
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Model\obj\Debug\InTheFridge.Model.dll
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Model\obj\Debug\InTheFridge.Model.pdb

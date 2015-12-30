@@ -1,0 +1,26 @@
+﻿#DetailsRecipeName {
+    font-size: 60px;
+    color: #4c4c4c;
+    text-align:center;
+    font-family: 'Lucida Bright';
+}
+
+#RecipeImage{
+    float:right;
+    position:relative;
+    right:60px;
+    bottom:20px;
+    width:30%;
+}
+
+#RecipeComment {
+    text-align:center;
+    font-size:26px;
+    font-style:italic;
+    padding-top:300px;
+    
+}
+
+#RecipeDescription {
+
+}

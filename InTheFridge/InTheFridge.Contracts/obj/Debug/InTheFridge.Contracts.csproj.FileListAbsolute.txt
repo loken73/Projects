@@ -1,0 +1,5 @@
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Contracts\bin\Debug\InTheFridge.Contracts.dll
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Contracts\bin\Debug\InTheFridge.Contracts.pdb
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Contracts\obj\Debug\InTheFridge.Contracts.csprojResolveAssemblyReference.cache
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Contracts\obj\Debug\InTheFridge.Contracts.dll
+Z:\Users\Loken\Documents\Visual Studio 2015\Projects\InTheFridge\InTheFridge.Contracts\obj\Debug\InTheFridge.Contracts.pdb

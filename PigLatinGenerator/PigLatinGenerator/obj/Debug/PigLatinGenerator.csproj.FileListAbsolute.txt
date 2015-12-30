@@ -1,0 +1,6 @@
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\bin\Debug\PigLatinGenerator.exe.config
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\bin\Debug\PigLatinGenerator.exe
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\bin\Debug\PigLatinGenerator.pdb
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\obj\Debug\PigLatinGenerator.csprojResolveAssemblyReference.cache
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\obj\Debug\PigLatinGenerator.exe
+z:\users\loken\documents\visual studio 2015\Projects\PigLatinGenerator\PigLatinGenerator\obj\Debug\PigLatinGenerator.pdb

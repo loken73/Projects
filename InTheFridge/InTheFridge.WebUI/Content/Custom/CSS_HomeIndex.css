@@ -1,0 +1,29 @@
+﻿#title{
+    font-size:60px;
+    padding: 10px 0 15px 20px;
+    font-family: Arial;
+    color: #FFA500;
+}
+
+#LearnMoreButton {
+    position:relative;
+    left: 475px 
+}
+
+.IndexP{
+    font-size:18px;
+}
+
+#AboutIngredientButton{
+    position:relative;
+    left:40px;
+    top:5px;
+    border:1px solid black
+}
+
+#AboutRecipeButton{
+    position:relative;
+    left:10px;
+    top:5px;
+    border:1px solid black
+}

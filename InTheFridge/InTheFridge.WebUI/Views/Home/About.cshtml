@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Hello, Internet. The reason you are here was because I had an idea.</p>
+
+<p>I wondered if there were websites that would be able to search recipes by the ingredients that are in them. I say that because A LOT of time I spent wondering what could I cook with the last things i had left in the fridge, a green pepper, some bread, and a sweet potato. </p>
+
+<p>Well, that enough about me and my mission. Click one of the two links below to check out both our ingredients' and recipes' lists</p>
+
+<div class="row">
+    <a id="AboutRecipeButton" class="btn btn-warning" href='@Url.Action("RecipeIndex", "Recipe")'><strong> Yummy Food Here </strong> &raquo;</a>
+
+    <a id="AboutIngredientButton"class="btn btn-warning" href='@Url.Action("IngredientList", "Ingredient")'><strong> The Stuff that Makes It </strong> &raquo;</a>
+</div>

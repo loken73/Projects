@@ -1,0 +1,60 @@
+﻿@model InTheFridge.Model.Recipe
+
+@{
+    ViewBag.Title = "RecipeDetails";
+}
+
+<h2>Recipe Details</h2>
+
+<p id="DetailsRecipeName" class="col-md-4">
+    @Html.DisplayFor(model => model.RecipeName)
+</p>
+
+
+<img id="RecipeImage" class="img-circle" src="~/Images/@Model.RecipeImage"/>
+
+
+<p id="RecipeComment"> "@Html.DisplayFor(model => model.RecipeDescription)" </p>
+
+
+<div>
+    <hr />
+    <dl id="RecipeDescription">
+        <dt>
+            @Html.DisplayNameFor(model => model.Meal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Meal)
+        </dd>
+
+        </br>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeIngredients):
+        </dt>
+
+        </br>
+
+        @Html.DisplayWithBreaksFor(model => model.RecipeIngredients)
+
+        </br>
+        </br>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Directions):
+        </dt>
+
+        </br>
+
+        @Html.DisplayWithBreaksFor(m => m.Directions)
+
+    </dl>
+</div>
+
+</br>
+
+<p>
+    @Html.ActionLink("Edit", "EditRecipe", new { id = Model.RecipeId }) |
+    @Html.ActionLink("Back to List", "RecipeIndex")
+</p>

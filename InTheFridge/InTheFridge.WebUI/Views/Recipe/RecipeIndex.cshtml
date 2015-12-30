@@ -1,0 +1,90 @@
+﻿@model IEnumerable<InTheFridge.Model.Recipe>
+
+@{
+    ViewBag.Title = "Recipe Index";
+}
+
+
+<h2>Recipe List</h2>
+
+@using (Ajax.BeginForm(
+    new AjaxOptions
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "RecipeList"
+    }))
+{
+<form method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input name="a" type="search" class="form-control input-group-sm" placeholder="Search By Ingredients" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-info btn-sm" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+};
+
+<p id="CreateRecipe">
+    @Html.ActionLink("Create New", "CreateRecipe")
+</p>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th id="PhotoInTable" class="col-md-3">
+                @Html.DisplayNameFor(model => model.RecipeImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecipeName)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.RecipeDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meal)
+            </th>
+        </tr>
+    </thead>
+
+
+<div id="RecipeList">
+@foreach (var item in Model)
+{
+    <tbody>
+        <tr>
+            <td class="col-md-3">
+                <img id="PhotosInTable" class="img-circle" src="/Images/@item.RecipeImage" alt="@item.RecipeDescription" />
+            </td>
+            <td id="itemName" class="col-md-2">
+                @Html.DisplayFor(modelItem => item.RecipeName)
+            </td>
+            <td class="col-md-3">
+                @Html.DisplayFor(modelItem => item.RecipeDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Meal)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditRecipe", new { id = item.RecipeId }) |
+                @Html.ActionLink("Details", "RecipeDetails", new { id = item.RecipeId })
+                @*@Html.ActionLink("Delete", "Delete", new { id=item.RecipeId })*@
+            </td>
+        </tr>
+    </tbody>
+}
+</div>
+</table>
+
+<div id="StartOverRecipes">@Html.ActionLink("Start Over", "RecipeIndex")</div>
+<div id="RecipeListIngredientLink">@Html.ActionLink("Ingredients", "IngredientList", new { controller = "Ingredient" })</div>

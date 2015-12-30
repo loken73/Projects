@@ -1,0 +1,57 @@
+﻿@model InTheFridge.Model.Ingredient
+
+@{
+    ViewBag.Title = "Ingredient Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientCalories)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientCalories)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "EditIngredient", new { id = Model.IngredientId }) |
+    @Html.ActionLink("Back to List", "IngredientList")
+</p>

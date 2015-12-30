@@ -1,0 +1,92 @@
+﻿@model IEnumerable<InTheFridge.Model.Ingredient>
+
+@{
+    ViewBag.Title = "Ingredient List";
+}
+
+<h2 style="padding-bottom:15px">Ingredient Search</h2>
+
+@using (Ajax.BeginForm(
+           new AjaxOptions
+           { 
+             HttpMethod = "get",
+             InsertionMode = InsertionMode.Replace,
+             UpdateTargetId = "IngredientList"
+           }))
+{
+<form method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input name="a" type="search" class="form-control input-group-sm" placeholder="Search By Name" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-info btn-sm" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+}
+
+<p id="CreateIng">
+    @Html.ActionLink("Create New", "CreateIngredient")
+</p>
+
+<table id="IngredientList" class="table table-hover" data-link="row">
+    <thead>
+        <tr>
+            <th id="PhotoInTable">
+                @Html.DisplayNameFor(model => model.IngredientImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IngredientName)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.IngredientDescription)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.IngredientCalories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IngredientType)
+            </th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tbody>
+          <tr>
+              <td class="col-md-3">
+                  <img id="PhotosInTable" class="img-circle" src="/Images/@item.IngredientImage" alt="@item.IngredientDescription" />
+              </td>
+              <td class="col-md-2">
+                @Html.DisplayFor(modelItem => item.IngredientName)
+              </td>
+              <td class="col-md-4" style="font-size: 24px">
+                @Html.DisplayFor(modelItem => item.IngredientCalories) kcal
+              </td>
+              <td class="col-md-1">
+                @Html.DisplayFor(modelItem => item.IngredientType)
+              </td>
+              <td>
+                @Html.ActionLink("Edit", "EditIngredient", new { id = item.IngredientId }) |
+                @Html.ActionLink("Details", "IngredientDetails", new { id = item.IngredientId })
+              </td>
+          </tr>
+        </tbody>
+
+    }
+
+</table>
+
+
+    <div id="StartOverIngredients">@Html.ActionLink("Start Over", "IngredientList")</div>
+    <div id="IngredientListRecipeLink">@Html.ActionLink("Recipes", "RecipeIndex", new { controller = "Recipe" })</div>
+

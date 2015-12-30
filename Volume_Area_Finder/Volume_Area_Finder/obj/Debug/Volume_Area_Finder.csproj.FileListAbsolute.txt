@@ -1,0 +1,6 @@
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\bin\Debug\Volume_Area_Finder.exe.config
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\obj\Debug\Volume_Area_Finder.csprojResolveAssemblyReference.cache
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\bin\Debug\Volume_Area_Finder.exe
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\bin\Debug\Volume_Area_Finder.pdb
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\obj\Debug\Volume_Area_Finder.exe
+z:\users\loken\documents\visual studio 2015\Projects\Volume_Area_Finder\Volume_Area_Finder\obj\Debug\Volume_Area_Finder.pdb

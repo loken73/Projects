@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <p id="title">What's in your fridge?</p>
+
+<div id="contentContainer">
+    <div id="wrapper">
+        <div id="itemOne" class="content">
+            <p id="Slide1Text">So you got a bunch of these.</p>           
+        </div>
+        <div id="itemTwo" class="content">
+            <p id="Slide2Text">In one of these.</p>
+        </div>
+        <div id="itemThree" class="content">
+            <p id="Slide3Text">And you want to make THIS!</p>
+        </div>
+        <div id="itemFour" class="content">
+            <p id="Slide4Text">Avoiding THIS!</p>
+        </div>
+    </div>
+</div>
+
+<div id="navLinks">
+    <ul>
+        <li class="itemLinks" data-pos="0px"></li>
+        <li class="itemLinks" data-pos="-1024px"></li>
+        <li class="itemLinks" data-pos="-2048px"></li>
+        <li class="itemLinks" data-pos="-3072px"></li>
+    </ul>
+</div>
+
+
+
+    <p class="lead">How many times do you ask yourself that in a week? Wouldn't you want to know what meals you can make with what you have left? Please see below for more details.</p>
+    <p><a id="LearnMoreButton" href='@Url.Action("About", "Home")' class="btn btn-warning btn-lg">Learn more &raquo;</a></p>
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Ingredient List</h2>
+            <p class="IndexP">
+                Here is where you will find a list of all of the ingredients we have so far. If there is anything missing, please feel free to add it as we can all use the help.
+            </p>
+            <p><a class="btn btn-default" href='@Url.Action("Ingredientlist", "Ingredient")'>Ingredients &raquo;</a></p>
+        </div>
+        <div class="col-md-6">
+            <h2>Recipes</h2>
+            <p class="IndexP">We have a cornucopia of recipes here to delight any appetite. Let's see what you can sink your teeth into today.</p>
+            <p><a class="btn btn-default" href='@Url.Action("RecipeIndex", "Recipe")'>Recipes &raquo;</a></p>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="~/Scripts/slider.js"></script>
+    <body onload="Slider();">
+    </body>

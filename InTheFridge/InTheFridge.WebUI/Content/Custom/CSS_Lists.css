@@ -1,0 +1,51 @@
+﻿#PhotosInTable {
+    float:none;
+    width:40%;
+}
+
+th{
+    text-align:center;
+}
+
+td{
+    text-align:center;
+}
+
+#CreateIng {
+    padding:0 53px 0 0;
+    font-size:16px;
+    float:right;
+    position:relative;
+    top:35px;
+} 
+
+#CreateRecipe {
+    padding:0 25px 0 0;
+    font-size:16px;
+    float:right;
+    position:relative;
+    top:35px;
+}
+
+#StartOverIngredients{
+    position:relative;
+    top:10px
+}
+
+#IngredientListRecipeLink {
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+#StartOverRecipes{
+    position:relative;
+    top:17px
+}
+
+#RecipeListIngredientLink {
+    position: relative;
+    left: 100px;
+    bottom:3px
+
+}

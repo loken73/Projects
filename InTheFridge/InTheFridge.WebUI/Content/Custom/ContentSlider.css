@@ -1,0 +1,101 @@
+﻿#wrapper {
+    width: 4096px;
+    transform: translate3d(0, 0, 0);
+    transition: transform .3s ease-in-out;
+    
+}
+.content {
+    float: left;
+    width: 1024px;
+    height: 600px;
+    white-space: normal;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+#itemOne { 
+    background-image: url("../Images/slider1.jpg");  
+}
+
+#Slide1Text {
+    padding-left: 20px;
+    padding-top: 500px;
+    color: white;
+    font-size: 60px;
+}
+
+#itemTwo {
+    background-image: url("../Images/sliderfridge.jpg");
+}
+
+#Slide2Text {
+    padding-top: 185px;
+    padding-left: 370px;
+    color: black;
+    font-size: 50px;
+}
+
+#itemThree {
+    background-image: url("../Images/slider2.jpg");
+}
+
+#Slide3Text {
+    padding: 5px 0 0 30px;
+    color: black;
+    font-size: 60px;
+}
+
+#itemFour {
+    background-image: url("../Images/slider3.jpg");
+}
+
+#Slide4Text {
+    padding: 460px 0 0 340px;
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px black
+}
+
+#contentContainer {
+    width: 1024px;
+    height: 600px;
+    border: 5px black solid;
+    overflow: hidden;
+    position:relative;
+    left:55px;
+}
+
+#navLinks {
+    text-align: center;
+    width: 1024px;
+
+}
+    #navLinks ul {
+        margin: 0px;
+        padding-left: 30px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+            #navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }

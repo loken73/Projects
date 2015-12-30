@@ -1,0 +1,6 @@
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\bin\Debug\PalindromeFinder.exe.config
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\bin\Debug\PalindromeFinder.exe
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\bin\Debug\PalindromeFinder.pdb
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\obj\Debug\PalindromeFinder.csprojResolveAssemblyReference.cache
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\obj\Debug\PalindromeFinder.exe
+z:\users\loken\documents\visual studio 2015\Projects\PalindromeFinder\PalindromeFinder\obj\Debug\PalindromeFinder.pdb
